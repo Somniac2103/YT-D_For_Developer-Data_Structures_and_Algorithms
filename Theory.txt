@@ -1,0 +1,38 @@
+-----ABSTRACT DATA TYPES-----
+
+ABSTRACT DATA TYPES -> DATA STRUCTURES
+
+Stack               -> Array, Linked List
+Queue               -> Array, Linked List
+Prioirty queue      -> heap
+Dictionary/hashmap  -> Array
+
+-----ARRAYS-----
+
+name[][]
+Same Primitives
+can be dynamic but not really must declare the size and type at compile time
+
+Operations:
+Read any position       O(1)
+Insert at Start         O(N)
+insert any postition    O(N)
+remove last             O(1)
+remove any position     O(N)
+Search if known index   O(1)
+Search if unknown index O(N)
+
+Algorithms
+linear search O(N)
+
+-----LINKED LIST----
+Last node points to NULL
+Contains two parts: Data and pointer
+
+Operations:
+Read any position      O(N)
+Insert at start        O(1)
+Insert any position    O(N)
+Remove at start        O(1)
+Remove any position    O(N)
+
